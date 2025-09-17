@@ -1,4 +1,6 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from "@storybook/react";
+
+import { Button } from "@app/_ui/button";
 import {
   Card,
   CardAction,
@@ -7,16 +9,15 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '../app/_ui/card';
-import { Button } from '../app/_ui/button';
+} from "@app/_ui/card";
 
 const meta: Meta<typeof Card> = {
-  title: 'UI/Card',
+  title: "UI/Card",
   component: Card,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -80,9 +81,7 @@ export const WithBorder: Story = {
     <Card className="w-[350px]">
       <CardHeader className="border-b">
         <CardTitle>Bordered Header</CardTitle>
-        <CardDescription>
-          This header has a bottom border.
-        </CardDescription>
+        <CardDescription>This header has a bottom border.</CardDescription>
       </CardHeader>
       <CardContent>
         <p>Card content with a separated header section.</p>
