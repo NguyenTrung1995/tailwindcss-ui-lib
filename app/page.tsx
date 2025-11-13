@@ -14,7 +14,7 @@ export default function Home() {
     <div className="p-8 flex flex-col gap-4">
       <Card>
         <CardHeader>
-          <CardTitle>Card Title</CardTitle>
+          <CardTitle>Card Title 1</CardTitle>
           <CardDescription>Card Description</CardDescription>
           <CardAction>Card Action</CardAction>
         </CardHeader>
